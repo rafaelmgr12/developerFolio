@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Rafael Ribeiro",
-  title: "Hi all, I'm Rafael",
+  title: "Hello there, I'm Rafael",
   subTitle: emoji(
-    "A passionate Software Engineer and Data Scientist 🚀 having an experience in solving problems using code lines."
+    "A passionate Software Engineer and Data Scientist 🚀 having an experience in solving problems and building applications with Node.JS / Python / Go / Java."
   ),
   resumeLink:
     "https://drive.google.com/file/d/18yUS_SVRT9IBEKr2oMhVNzWEoFs2PZdo/view?usp=sharing", // Set to empty to hide the button
@@ -53,7 +53,7 @@ const skillsSection = {
     "Software Engineer and Data Scientist who loves to solve problems through technology.",
   skills: [
     emoji(
-      "⚡ System Design, Database Modeling and API Development"
+      "⚡ System Design, Database Modeling and Software Development"
     ),
     emoji("⚡ Project experience with Machine Learning projects, data analysis and visualization, and Deep Learning."),
     emoji(
@@ -130,7 +130,7 @@ const educationInfo = {
       schoolName: "University of São Paulo",
       logo: require("./assets/images/usp.png"),
       subHeader: "Master of Science in Cosmology",
-      duration: "September 2019 - Present",
+      duration: "September 2019 - July 2022(incomplete)",
       desc: "Participated in the research of Photometric Redshift using Machine Learning.",
       descBullets: [
         "Participated in the BINGO project",
@@ -184,7 +184,7 @@ const workExperiences = {
       descBullets: [
         "Create Machine Learning models for regression, time-series, and classification",
         "Develop Combinatorial optimization algorithms",
-        "Software Development to create solutions based on the data"
+        "Software Development to create solutions based on data"
       ]
     },
     
@@ -280,19 +280,6 @@ const achievementSection = {
        
       ]
     },
-    {
-      title: "DeepLearning.AI TensorFlow Developer",
-      subtitle:
-        "Learned: how to build and train neural networks using TensorFlow, how to improve network performance using convolutions as you train it to identify real-world images, how to teach machines to understand, analyze, and respond to human speech with natural language processing systems.",
-      image: require("./assets/images/deeplearning_ai_logo.png"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/Z8PU6AT9Z657"
-        },
-       
-      ]
-    },
     
     {
       title: "Machine Learning on Google Cloud Platform",
@@ -327,6 +314,61 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2CXZRBURD3EC"
+        }
+      ]
+    },
+    {
+      title: "Applied Data Science with Python",
+      subtitle:
+        "The 5 courses in this University of Michigan specialization introduce learners to data science through the python programming language. This skills-based specialization is intended for learners who have a basic python or programming background, and want to apply statistical, machine learning, information visualization, text analysis, and social network analysis techniques through popular python toolkits such as pandas, matplotlib, scikit-learn, nltk, and networkx to gain insight into their data.",
+      image: require("./assets/images/michigan_logo.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2MVRE4ZBZF78"
+        }
+      ]
+    },
+    {
+      title: "PostgreSQL for Everybody",
+      subtitle:"Across these four courses, you’ll learn how to use the PostgreSQL database and explore topics ranging from database design to database architecture and deployment. You’ll also compare and contrast SQL and NoSQL approaches to database design. The skills in this course will be useful to learners doing data mining or application development.",
+      image: require("./assets/images/michigan_logo.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/YL3P4PWPLBT9",
+        }
+      ]
+    },
+    {
+      title: "Programming with Google Go",
+      subtitle:"This specialization introduces the Go programming language from Google and provides learners with an overview of Go's special features. Upon completing the three-course sequence, learners will have gained the knowledge and skills needed to create concise, efficient, and clean applications using Go.",
+      image: require("./assets/images/university-of-california-irvine-uci-vector-logo.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/YL3P4PWPLBT9",
+        }
+      ]
+    },{
+      title: "Node.js Ignite",
+      subtitle:"Build scalable and simple architectures for the web using a flexible and popular language.",
+      image: require("./assets/images/28929274.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://app.rocketseat.com.br/api/certificates/pdf/ef1bad6b-937a-49f9-a6f3-421a4fda7d99",
+        }
+      ]
+    },
+    {
+      title: "AWS Machine Learning Foundations",
+      subtitle:"Learn the fundamentals of advanced machine learning areas such as computer vision, reinforcement learning, and generative AI. Get hands-on with machine learning using AWS AI Devices (i.e. AWS DeepRacer and AWS DeepComposer).Learn how to prepare, build, train, and deploy high-quality machine learning (ML) models quickly with Amazon SageMaker and learn object-oriented programming best practices.",
+      image: require("./assets/images/udacity.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://app.rocketseat.com.br/api/certificates/pdf/ef1bad6b-937a-49f9-a6f3-421a4fda7d99",
         }
       ]
     },
