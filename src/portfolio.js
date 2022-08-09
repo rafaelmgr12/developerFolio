@@ -23,7 +23,7 @@ const greeting = {
   username: "Rafael Ribeiro",
   title: "Hello there, I'm Rafael",
   subTitle: emoji(
-    "A passionate Software Engineer and Data Scientist 🚀 having an experience in solving problems and building applications with Node.JS / Python / Go / Java."
+    "A passionate Software Engineer 🚀 having an experience in solving problems and building applications with Node.JS / Python / Go / Java. I turn ☕ Coffee into Code."
   ),
   resumeLink:
     "https://drive.google.com/file/d/18yUS_SVRT9IBEKr2oMhVNzWEoFs2PZdo/view?usp=sharing", // Set to empty to hide the button
@@ -50,14 +50,14 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Software Engineer and Data Scientist who loves to solve problems through technology.",
+    "Software Engineer who loves to solve problems through technology.",
   skills: [
     emoji(
-      "⚡ System Design, Database Modeling and Software Development"
+      "👷‍♂️ Software Engineering - I love to desing, build and deploy applications with the best technologies available."
     ),
-    emoji("⚡ Project experience with Machine Learning projects, data analysis and visualization, and Deep Learning."),
+    emoji("🤖 Project experience with Machine Learning projects, data analysis and visualization, and Deep Learning."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Heroku"
+      "🔄 Full Cycle Software Development - I have a strong background in software development and I am always looking for new challenges to solve."
     )
   ],
 
@@ -301,7 +301,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2CXZRBURD3EC"
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/F3SMVJN9HLWR"
         }
       ]
     },
