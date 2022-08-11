@@ -53,12 +53,13 @@ const skillsSection = {
     "Software Engineer who loves to solve problems through technology.",
   skills: [
     emoji(
-      "👷‍♂️ Software Engineering - I love to desing, build and deploy applications with the best technologies available."
+      "👷‍♂️ Software Engineering - I love to design, build and deploy applications with the best technologies available."
     ),
     emoji("🤖 Project experience with Machine Learning projects, data analysis and visualization, and Deep Learning."),
     emoji(
-      "🔄 Full Cycle Software Development - I have a strong background in software development and I am always looking for new challenges to solve."
-    )
+      "🔄 Full Cycle Software Development - I have a strong background in software development, and deploy/integration of third party services such as Firebase/ AWS /Heroku."
+    ),
+    emoji("🏃🏼 I am always eager for new challenges to solve.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -67,15 +68,15 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     // langs
     {
-      skillName: "JavaScript",
+      skillName: "javascript",
       fontAwesomeClassname: "fab fa-js-square"
     },
     {
-      skillName: "Python",
+      skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Java",
+      skillName: "java",
       fontAwesomeClassname: "fab fa-java"
     },
 
@@ -176,7 +177,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data Analyst",
+      role: "Data Analyst and Software Developer", //Insert the role you have played in this company
       company: "Tendências - Consultoria Integrada",
       companylogo: require("./assets/images/1615072367219.jpeg"),
       date: "September 2021 – Present",
