@@ -28,3 +28,6 @@ public/blogs.json
 .firebaserc
 firebase.json
 .firebase/hosting.YnVpbGQ.cache
+.github/workflows
+.github/PULL_REQUEST_TEMPLATE
+.github/ISSUE_TEMPLATE
