@@ -55,7 +55,7 @@ const skillsSection = {
       "👷‍♂️ Software Engineering - I love to design, build and deploy applications with the best technologies available."
     ),
     emoji(
-      "🤖 Project experience with Machine Learning projects, data analysis and visualization, and Deep Learning."
+      "🤖 Experience with Machine Learning projects, data analysis and visualization, and Deep Learning."
     ),
     emoji(
       "🔄 Full Cycle Software Development - I have a strong background in software development, and deploy/integration of third party services such as Firebase/ AWS /Heroku."
@@ -182,10 +182,11 @@ const workExperiences = {
       company: "Tendências - Consultoria Integrada",
       companylogo: require("./assets/images/1615072367219.jpeg"),
       date: "September 2021 – Present",
-      desc: "Use Data to develop economic solutions and Software Development.",
+      desc: "Data analysis, Machine <Learning></Learning> and Software Development.",
       descBullets: [
-        "Create Machine Learning models for regression, time-series, and classification",
+        "Bulding Machine Learning models for regression, time-series, and classification",
         "Develop Combinatorial optimization algorithms",
+        "Resolution of data science problems using Python",
         "Software Development to create solutions based on data"
       ]
     }
@@ -267,7 +268,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "DeepLearning.AI TensorFlow Develope",
+      title: "DeepLearning.AI TensorFlow Developer",
       subtitle:
         "Learned: how to build and train neural networks using TensorFlow, how to improve network performance using convolutions as you train it to identify real-world images, how to teach machines to understand, analyze, and respond to human speech with natural language processing systems.",
       image: require("./assets/images/deeplearning_ai_logo.png"),
@@ -335,7 +336,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2CXZRBURD3EC"
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/972X3MRBFQJ4"
         }
       ]
     },
@@ -363,18 +364,18 @@ const achievementSection = {
     //     }
     //   ]
     // },
-    // {
-    //   title: "Programming with Google Go",
-    //   subtitle:
-    //     "This specialization introduces the Go programming language from Google and provides learners with an overview of Go's special features. Upon completing the three-course sequence, learners will have gained the knowledge and skills needed to create concise, efficient, and clean applications using Go.",
-    //   image: require("./assets/images/university-of-california-irvine-uci-vector-logo.png"),
-    //   footerLink: [
-    //     {
-    //       name: "Certification",
-    //       url: "https://www.coursera.org/account/accomplishments/certificate/YL3P4PWPLBT9"
-    //     }
-    //   ]
-    // },
+    {
+      title: "Programming with Google Go",
+      subtitle:
+        "This specialization introduces the Go programming language from Google and provides learners with an overview of Go's special features. Upon completing the three-course sequence, learners will have gained the knowledge and skills needed to create concise, efficient, and clean applications using Go.",
+      image: require("./assets/images/university-of-california-irvine-uci-vector-logo.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/YL3P4PWPLBT9"
+        }
+      ]
+    },
     {
       title: "Node.js Ignite",
       subtitle:
