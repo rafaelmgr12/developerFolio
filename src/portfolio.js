@@ -182,7 +182,7 @@ const workExperiences = {
       company: "Tendências - Consultoria Integrada",
       companylogo: require("./assets/images/1615072367219.jpeg"),
       date: "September 2021 – Present",
-      desc: "Data analysis, Machine <Learning></Learning> and Software Development.",
+      desc: "Data analysis, Machine Learning and Software Development.",
       descBullets: [
         "Bulding Machine Learning models for regression, time-series, and classification",
         "Develop Combinatorial optimization algorithms",
