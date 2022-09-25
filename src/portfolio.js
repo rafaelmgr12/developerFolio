@@ -372,7 +372,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/YL3P4PWPLBT9"
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/TZ8M2ZQ6HS66"
         }
       ]
     },
