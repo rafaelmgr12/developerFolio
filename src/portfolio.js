@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Engineer 🚀 having an experience in solving problems and building applications with Node.js / Python / Go / Java. I turn ☕ Coffee into Code."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/18yUS_SVRT9IBEKr2oMhVNzWEoFs2PZdo/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1UgtXKJTh41twLwrWjsC0vspHb74mEHcB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
