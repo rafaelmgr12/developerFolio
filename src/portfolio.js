@@ -2,7 +2,6 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -22,9 +21,9 @@ const illustration = {
 const greeting = {
   username: "Rafael Ribeiro",
   title: "Hello there, I'm Rafael",
-  subTitle: emoji(
+  subTitle: 
     "A passionate Software Engineer 🚀 having an experience in solving problems and building applications with Node.js / Python / Go / Java. I turn ☕ Coffee into Code."
-  ),
+  ,
   resumeLink:
     "https://drive.google.com/file/d/1UgtXKJTh41twLwrWjsC0vspHb74mEHcB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -51,16 +50,16 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Software Engineer who loves to solve problems through technology.",
   skills: [
-    emoji(
+    
       "👷‍♂️ Software Engineering - I love to design, build and deploy applications with the best technologies available."
-    ),
-    emoji(
+    ,
+    
       "🤖 Experience with Machine Learning projects, data analysis and visualization, and Deep Learning."
-    ),
-    emoji(
+    ,
+    
       "🔄 Full Cycle Software Development - I have a strong background in software development, and deploy/integration of third party services such as Firebase/ AWS /Heroku."
-    ),
-    emoji("🏃🏼 I am always eager for new challenges to solve.")
+    ,
+    "🏃🏼 I am always eager for new challenges to solve."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -238,7 +237,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications 🏆 ",
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -456,9 +455,9 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
+  subtitle: 
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  ,
 
   talks: [
     {
@@ -474,7 +473,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: "Podcast 🎙️",
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
@@ -485,7 +484,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+55 21 96510-3237",
