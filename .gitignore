@@ -25,7 +25,6 @@ yarn-error.log*
 #user generated content
 public/profile.json
 public/blogs.json
-.firebaserc
 .firebase/hosting.YnVpbGQ.cache
 .github/workflows
 .github/PULL_REQUEST_TEMPLATE
