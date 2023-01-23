@@ -8,16 +8,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}
+          MEDIUM_USERNAME: ${{ secrets.MEDIUM_USERNAME }}
+          REACT_APP_GITHUB_TOKEN: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: '16.4.0'
       - run: yarn install --frozen-lockfile 
+      - run: node fetch.js
       - run: yarn build
       - name: GitHub Action for Firebase
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        
