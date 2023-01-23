@@ -9,9 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-          GH_USERNAME: ${{ repository.GH_USERNAME }}
-          MEDIUM_USERNAME: ${{ repository.MEDIUM_USERNAME }}
-          REACT_APP_GITHUB_TOKEN: ${{ repository.REACT_APP_GITHUB_TOKEN }}
+          # GH_USERNAME: ${{ repository.GH_USERNAME }}
+          # MEDIUM_USERNAME: ${{ repository.MEDIUM_USERNAME }}
+          # REACT_APP_GITHUB_TOKEN: ${{ repository.REACT_APP_GITHUB_TOKEN }}
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
     steps:
       - uses: actions/checkout@v3
