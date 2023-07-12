@@ -183,10 +183,13 @@ const workExperiences = {
       date: "September 2021 – Present",
       desc: "Data analysis, Machine Learning and Software Development.",
       descBullets: [
-        "Bulding Machine Learning models for regression, time-series, and classification",
-        "Develop Combinatorial optimization algorithms",
-        "Resolution of data science problems using Python",
-        "Software Development to create solutions based on data"
+        "Building Machine Learning and Regression models for time series analysis",
+        "Data Analysis",
+        "API integration with existing and new services",
+        "Development of APIs",
+        "Maintenance and improvement of existing systems",
+        "Design and architecture of new applications",
+        "Python and Go"
       ]
     }
   ]
