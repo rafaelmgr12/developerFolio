@@ -425,7 +425,70 @@ const achievementSection = {
           url: "https://cursos.alura.com.br/degree/certificate/d977171b-b19d-4f37-83c5-6b66148e3f68"
         }
       ]
-    }
+    },
+    {
+      title: "Software Engineering",
+      subtitle:
+        "Alura's software engineering certification offers comprehensive content covering these disciplines, providing you with the necessary knowledge to gain a strong understanding of this crucial area in computer science.",
+      image: require("./assets/images/alura.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://cursos.alura.com.br/degree/certificate/e1b9b2bf-c029-4b58-85df-1646487e101a?lang=en"
+        }
+      ]
+    },
+    {
+      title: "DevOps Formation",
+      subtitle:
+        "Key concepts such as continuous integration and delivery are fundamental practices in the world of software development and DevOps. In this program, you will learn about Infrastructure as Code, enabling you to replicate environments and automate machine installations with provisioning tools.",
+      image: require("./assets/images/alura.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://cursos.alura.com.br/degree/certificate/cfcaaf6c-01d5-4f7e-95a2-fee3f6e1ce90?lang=en"
+        }
+      ]
+    },
+    {
+      title: "Java and Spring Boot",
+      subtitle:
+        "Java Spring Boot (Spring Boot) is a powerful tool that turbocharges web application and microservice development with Spring Framework. In this training, master the art of harnessing this framework, enabling you to create applications with unparalleled speed and simplicity.",
+      image: require("./assets/images/alura.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://cursos.alura.com.br/degree/certificate/2b80d29d-afc9-4d24-b1f7-0e69c7a25193?lang=en"
+        }
+      ]
+    },
+
+    {
+      title: "Java with Microservices Architecture, Spring, and RabbitMQ.",
+      subtitle:
+        "In this training, you will embark on a journey to create microservices from scratch, gaining expertise in the infrastructure of this cutting-edge architecture and honing your skills in messaging using RabbitMQ. To fully embrace this content, it is essential for you to possess a strong grasp of the Java language, prior exposure to a cloud provider (such as AWS, Azure, or Google Cloud), and a solid understanding of microservices concepts.",
+      image: require("./assets/images/alura.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://cursos.alura.com.br/degree/certificate/e8a7e177-fe46-4fe1-bb12-6b76cad9fa86?lang=en"
+        }
+      ]
+    },
+    {
+      title: "The Way To Gp",
+      subtitle:
+        "In this course, you will embark on an exhilarating journey, unraveling the very essence of this language. Starting with the fundamentals, you will quickly ascend to more advanced Go concepts, such as mastering the art of error-handling, harnessing the power of networking, and unleashing the potential of templating. This immersive experience will equip you with the skills to code efficiently in Go, arming you with invaluable knowledge of common pitfalls and best practices. Brace yourself for the thrill of building your own awe-inspiring applications along the way.",
+      image: require("./assets/images/educative.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.educative.io/verify-certificate/El5jyzfk0X2Y9xRL1FyBXK4R352EIG"
+        }
+      ]
+    },
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
